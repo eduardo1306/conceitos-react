@@ -1,11 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  outline: 0;
   box-sizing: border-box;
 }
 
 body {
   font-size: 14px;
+  background: #f1f2f6;
 }
 
 div {
@@ -16,6 +18,8 @@ div {
 div li {
   display: flex;
   align-items: center;
+  font-weight: bold;
+  font: 16px sans-serif;
 }
 
 div li + li {
@@ -28,12 +32,13 @@ button {
   border: 0;
   padding: 10px 15px;
   cursor: pointer;
+  border-radius: 4px;
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
 }
 
 div li button {
-  margin: 0 15px;
+  margin: 0 30px;
   background: #ca4949;
 }
